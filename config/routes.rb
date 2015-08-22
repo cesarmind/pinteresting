@@ -1,7 +1,12 @@
 Rails.application.routes.draw do
   root "pages#home"
+<<<<<<< HEAD
   get "about" => "pages#about" # creates about_path
   
+=======
+  get "about" => "pages#about"
+
+>>>>>>> d7ecc4ad64ae2cd3a60923b91d1b7e40c2a7d9ff
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
